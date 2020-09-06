@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  pagging: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -21,6 +21,10 @@ main {
   padding: 10px;
   background-color: #eeeeee;
   position: relative;
+}
+
+.step-box:last-child {
+  margin-right: 0;
 }
 
 .step-img1 {
@@ -45,12 +49,12 @@ main {
 }
 
 .step-num {
-  padding: 1px;
+  padding: 3px;
   position: absolute;
   top: 0;
   left: 0;
   background-color: #ff9a4b;
-  color: white;
+  color: #ffffff;
 }
 
 .title {
